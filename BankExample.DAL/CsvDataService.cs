@@ -102,7 +102,7 @@ namespace BankExample.DAL
             using var csvWriter = new CsvWriter(writer, CultureInfo.CurrentCulture);
 
             csvWriter.WriteHeader<AccountModel>();
-            csvWriter.NextRecord(); // adds new line after header
+            csvWriter.NextRecord(); // /r/n between records and  header
             csvWriter.WriteRecords(accounts);
 
         }

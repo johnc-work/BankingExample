@@ -7,7 +7,6 @@ namespace BankingExample
     class Program
     {
 
-        //TODO logging, sql dal, 
         static void Main(string[] args)
         {
             var bankName = "Default";
@@ -137,6 +136,7 @@ D - Deposit
 W - Withdraw
 T - Transfer
 S - Switch Banks
+Q - Quit
 ";
             Console.WriteLine(message);
         }
